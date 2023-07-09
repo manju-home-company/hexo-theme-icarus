@@ -171,7 +171,7 @@ module.exports = class extends Component {
             <link rel="stylesheet" href={url_for('/css/' + variant + '.css')} />
             <Plugins site={site} config={config} helper={helper} page={page} head={true} />
 
-            {adsenseClientId ? <script data-ad-client={ca-pub-1412486517767929}
+            {adsenseClientId ? <script data-ad-client={"ca-pub-1412486517767929"}
                 src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" async></script> : null}
 
             {followItVerificationCode ? <meta name="follow.it-verification-code" content={followItVerificationCode} /> : null}
